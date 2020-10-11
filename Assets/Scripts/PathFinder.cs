@@ -58,7 +58,7 @@ public class PathFinder : MonoBehaviour
             if (currentWaypoint == endWayPoint)
             {
                 isPathFinding = false;
-                Debug.Log($"<color=cyan> END NODE FOUND !</color>");
+                //Debug.Log($"<color=cyan> END NODE FOUND !</color>");
                 CreatePath();
                 return;
             }
@@ -110,7 +110,7 @@ public class PathFinder : MonoBehaviour
             }
             catch (Exception)
             {
-                Debug.Log($"no path towards {direction}");
+                //Debug.Log($"no path towards {direction}");
             }
 
         }
